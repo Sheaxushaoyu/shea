@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>xushaoyu</title>
+  </head>
+  <style>
+    .biank {
+      background-color: rgb(255, 255, 255);
+    }
+    .flex1 {
+      flex: 1;
+    }
+    .flex {
+      display: flex;
+    }
+    body {
+      margin: 0;
+      /* vh 是view height 既视窗高度的意思，100就是100%占满窗口高度 */
+      height: 100vh;
+      background-color: #cbc5c5eb;
+    }
+    .yinYing {
+        box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
+          rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+      }
+      .press{
+        background-color: rgb(255, 255, 255);
+        border-top-style: none;
+        border-left: none;
+        border-right: none;
+        border-bottom-color: #fc0000;
+        border-bottom-width: 5px;
+      }
+      @media (max-width: 600px) {
+ 
+        .press {
+          flex-direction: column;
+      }
+  </style>
+  <body>
+    <!--头部栏-->
+    <div class="biank flex1 flex yinYing" style="height: 100px">
+      <img
+        alt="logo"
+        src="https://s21.ax1x.com/2024/07/15/pk5cwhq.jpg"
+        width="70px"
+        height="70px"
+        style="margin: 15px"
+      />
+      <div style="margin-left: 10px; margin-top: 35px; font-size: 20px;width: 250px;">许少煜的个人网页<br>Shea's Website
+    </div> 
+       <audio controls  style="margin-top: 50px;margin-left: 10px;">
+  <source src="C:\Users\31364\Desktop\1721024555105.mp3"  type="audio/mpeg">
+  <source src="C:\Users\31364\Desktop\1721024555105.ogg"  type="audio/ogg">
+  <img id="btn" class="active" src="C:\Users\31364\Desktop\1721024555105.mp3" alt="" />
+  <embed height="50" width="100" src="C:\Users\31364\Desktop\1721024555105.mp3">
+</audio>
+<div style="margin-top: 70px;width: 150px;">听点音乐吧</div>
+    <button class="press yinYing" style="margin-top: 50px;width: 150px; font-weight: 100;font-size: 20px;margin-left: 80px ;">首页</button>
+    <button class="press yinYing" style="margin-top: 50px;width: 150px; font-weight: 100;font-size: 20px;margin-left: 20px ;">关于我</button>
+    <button class="press yinYing" style="margin-top: 50px;width: 150px; font-weight: 100;font-size: 20px;margin-left: 20px ;">项目展示</button>
+    <button class="press yinYing" style="margin-top: 50px;width: 150px; font-weight: 100;font-size: 20px;margin-left: 20px ;">投喂</button>
+    <button class="press yinYing" style="margin-top: 50px;width: 150px; font-weight: 100;font-size: 20px;margin-left: 20px ;">与我联系</button>
+ 
+</div>
+<img
+          alt="logo"
+          src="https://s21.ax1x.com/2024/07/15/pk56vXF.jpg"
+          width="1700px"
+          height="800px"
+          style="justify-content: flex-ends;"
+        /img>
+   </div>
+  </body>
+</html>
